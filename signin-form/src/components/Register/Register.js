@@ -1,7 +1,7 @@
 import React from 'react';
 import './register.css';
 
-const Register = () => { 
+const Register = ({onRouteChange}) => { 
     return(
         <div className='register'>
         <label>Name</label> 
@@ -12,7 +12,7 @@ const Register = () => {
           <input type='text' placeholder='Password'/>
         <label>Re-enter Password</label> 
           <input type='text' placeholder='Password'/>
-        <button>Register</button>
+        <button onClick={() => onRouteChange('home')}>Register</button>
         </div>
     )
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import './signin.css';
 
-const Signin = () => { 
+const Signin = ({ onRouteChange }) => { 
     return(
         <div className='signin'>
         <label>Email</label> 
@@ -9,6 +9,7 @@ const Signin = () => {
         <label>Password</label> 
           <input type='text' placeholder='Password'/>
         <button>Sign In</button>
+        <button onClick={() => onRouteChange('home')}>Sign Out</button>
         </div>
     )
 };
