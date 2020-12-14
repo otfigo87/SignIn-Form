@@ -1,0 +1,23 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  
+  
+  }
+  
+  
+  li {
+    list-style-type: none;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  li:hover { 
+    color: yellow;
+  }

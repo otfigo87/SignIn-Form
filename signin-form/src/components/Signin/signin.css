@@ -1,0 +1,48 @@
+.signin {
+    width: 35%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 30px;
+    border: solid  #737b8d 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 15px;
+    color: yellowgreen;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.4rem;
+
+}
+
+button {
+    margin: 20px;
+    width: 25%;
+    height: 30px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: grey;
+    border: solid grey 1px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover { 
+    background-color: white;
+    color: black;
+}
